@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chocolate-Pizza</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -15,28 +16,33 @@
       <img src="img/logo.png" alt="fork and knife logo">
     </div>
     <div id="title">
-      <h2>Delicious</h2>
-      <p>THE BEST FOOD ON THE WEB</p>
+      <h2 id="del">Delicious</h2>
+      <p id="sub">THE BEST FOOD ON THE WEB</p>
     </div>
-    <div id="fb"><img src="img/fb-icon.png" alt="facebook icon"></div>
-    <div id="tw"><img src="img/twit-icon.png" alt="twitter icon"></div>
-    <div id="go"><img src="img/gp-icon.png" alt="google plus icon"></div>
-    <div id="ig"><img src="img/insta-icon.png" alt="instagram icon"></div>
-    <div id="fl"><img src="img/flic-icon.png" alt="flic icon"></div>
-    <div id="pint"><img src="img/pint-icon.png" alt="pint icon"></div>
-    <div id="rss"><img src="img/rss-icon.png" alt="rss icon"></div>
-    <div id="mail"><img src="img/mail-icon.png" alt="mail icon"></div>
-    <img id="pageBreak" src="img/hr-img.png" alt="page break">
+
+    <article id="icons">
+      <img src="img/fb-icon.png" alt="facebook icon">
+      <img src="img/twit-icon.png" alt="twitter icon">
+      <img src="img/gp-icon.png" alt="google plus icon">
+      <img src="img/insta-icon.png" alt="instagram icon">
+      <img src="img/flic-icon.png" alt="flic icon">
+      <img src="img/pint-icon.png" alt="pint icon">
+      <img id="rss" src="img/rss-icon.png" alt="rss icon">
+      <img src="img/mail-icon.png" alt="mail icon">
+    </article>
   </header>
+  <article id="pageBreak">
+    <!-- <img src="img/hr-img.png" alt="page break"> -->
+  </article>
   <main>
-    <section>
+    <section id="top">
       <h1>Chocolate Pizza</h1>
       <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
-      <div id="printer"><img src="img/printer-icon.png" alt="printer icon"></div>
+      <div id="printer"><img src="img/printer-icon.png" alt="printer icon">PRINT</div>
     </section>
     <section>
-      <div>
-        <img src="img/choco-pizza.png" alt="chocolate pizza image">
+      <div id="mainPic">
+        <img id="pizza" src="img/choco-pizza.png" alt="chocolate pizza image">
       </div>
       <article id="instructions">
         <p>
@@ -58,8 +64,9 @@
       </article>
       <article id="recipe">
         <form>
+          <img id="paper" src="img/list-bg.png" alt="lined paper picture">
           <fieldset>
-            <legend>New Store</legend>
+            <legend></legend>
             <br>
             <label for="milk">1 1/2 cups milk</label>
             <input id="milk" type="checkbox" name="milk">

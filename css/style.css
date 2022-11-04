@@ -1,0 +1,76 @@
+header {
+  border: solid 5px red;
+  display: flex;
+  flex-direction: row;
+}
+
+#logo {
+  margin-bottom: 30px;
+}
+
+#icon {
+  align-items: flex-end;
+}
+
+#del {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+article #icons {
+  display: flex;
+  flex-direction: row;
+}
+
+#rss {
+  margin-left: 10px;
+}
+
+#sub {
+  font-size: 10px;
+}
+
+#pageBreak {
+  width: 100vw;
+  height: 30px;
+  background-image: url("img/hr-img.png");
+  /* background-repeat: round; */
+}
+
+main {
+  border: solid 5px blue;
+ 
+  /* display: flex;
+  flex-direction: row; */
+  
+}
+
+#top h1 {
+  border: solid 5px yellow;
+  font-size: 30px;
+}
+
+#top p {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+#top div{
+  float: right;
+}
+
+#mainPic {
+ border: solid 5px green;
+ display: flex;
+
+}
+
+#pizza {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#instructions {
+  margin-left: 50px;
+  margin-right: 50px;  
+}
