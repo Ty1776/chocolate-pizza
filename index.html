@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <title>Chocolate-Pizza</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
   <header>
     <div id="logo">
@@ -24,13 +26,97 @@
     <div id="pint"><img src="img/pint-icon.png" alt="pint icon"></div>
     <div id="rss"><img src="img/rss-icon.png" alt="rss icon"></div>
     <div id="mail"><img src="img/mail-icon.png" alt="mail icon"></div>
-    <img src="img/hr-img.png" alt="page break">
-    </header>
+    <img id="pageBreak" src="img/hr-img.png" alt="page break">
+  </header>
   <main>
-
+    <section>
+      <h1>Chocolate Pizza</h1>
+      <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
+      <div id="printer"><img src="img/printer-icon.png" alt="printer icon"></div>
+    </section>
+    <section>
+      <div>
+        <img src="img/choco-pizza.png" alt="chocolate pizza image">
+      </div>
+      <article id="instructions">
+        <p>
+          For the fig-swirl: Melt butter over meduim heat in a saucepan. Add brown sugar and stir to dissolve. Halve all
+          of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently,
+          until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
+        </p>
+        <p>
+          Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely
+          dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait
+          until the fig mixture is cooled.
+        </p>
+        <p>
+          Using an ice cream mackine, pour liquids into the frozen basin and process according to manufacturer
+          instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the
+          nuts. Continue to process for +/-10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware.
+          Freeze for at least two hours before serving.
+        </p>
+      </article>
+      <article id="recipe">
+        <form>
+          <fieldset>
+            <legend>New Store</legend>
+            <br>
+            <label for="milk">1 1/2 cups milk</label>
+            <input id="milk" type="checkbox" name="milk">
+            <br>
+            <label for="mascarpone">1/2 cup mascarpone</label>
+            <input id="mascarpone" type="checkbox" name="mascarpone">
+            <br>
+            <label for="salt">1/2 tsp pink salt</label>
+            <input id="salt" type="checkbox" name="salt">
+            <br>
+            <label for="figs">1lb Black Mission Figs</label>
+            <input id="figs" type="checkbox" name="figs">
+            <label for="sugar">1/2 cup brown sugar</label>
+            <input id="sugar" type="checkbox" name="sugar">
+            <br>
+            <label for="water">2-4 tbsp water</label>
+            <input id="water" type="checkbox" name="water">
+            <br>
+            <label for="cream">1 1/2 cups heavy cream</label>
+            <input id="cream" type="checkbox" name="cream">
+            <br>
+            <label for="gran-sugar">1/3 granulated sugar</label>
+            <input id="gran-sugar" type="checkbox" name="gran-sugar">
+            <label for="eggs">2 egg yolks</label>
+            <input id="eggs" type="checkbox" name="eggs">
+            <br>
+            <label for="lemon">1 lemon, juiced</label>
+            <input id="lemon" type="checkbox" name="lemon">
+            <br>
+            <label for="butter">2 tbsp butter</label>
+            <input id="butter" type="checkbox" name="butter">
+            <br>
+            <label for="pecans">1 cup honey roasted pecans, roughly chopped</label>
+            <input id="pecans" type="checkbox" name="pecans">
+          </fieldset>
+        </form>
+      </article>
+      <article id="bottom">
+        <div>
+          <img id="pageBreak" src="img/hr-img.png" alt="page break">
+        </div>
+        <div id="person">
+          <img src="img/van-pic.png" alt="smiling person">
+        </div>
+        <h3>Vanessa Stevenson</h3>
+        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        <button id="share">SHARE RECIPE</button>
+      </article>
+    </section>
   </main>
   <footer>
-
+    <div id="footer logo">
+      <img src="img/logo.png" alt="logo">
+    </div>
+    <p>Delicious &copy; 2013 All Rights Reserved.</p>
+    <p>Proudly published with Ghost.</p>
   </footer>
 </body>
+
 </html>
