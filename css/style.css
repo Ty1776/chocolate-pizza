@@ -1,5 +1,4 @@
 header {
-  border: solid 5px red;
   display: flex;
   flex-direction: row;
 }
@@ -37,16 +36,7 @@ article #icons {
   /* background-repeat: round; */
 }
 
-main {
-  border: solid 5px blue;
- 
-  /* display: flex;
-  flex-direction: row; */
-  
-}
-
 #top h1 {
-  border: solid 5px yellow;
   font-size: 30px;
 }
 
@@ -60,7 +50,6 @@ main {
 }
 
 #mainPic {
- border: solid 5px green;
  display: flex;
 
 }
@@ -71,20 +60,14 @@ main {
 }
 
 #instructions {
-  width: 52vw;
-
-  margin-left: auto;
-  margin-right: auto;  
+  display:inline-block;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 18px;
 }
 
-/* article #recipe {
-  border: solid 5px yellow;
-  margin-left: 100px;
-  margin-right: 100px;
-} */
 
 form {
-  border: solid 5px pink;
   display:  flex;
   flex-direction: row;
   justify-content: center;
